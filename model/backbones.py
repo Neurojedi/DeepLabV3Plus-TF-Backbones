@@ -16,11 +16,11 @@ from tensorflow.keras.applications import (
 
 backbones_list = {
     'resnet50': {'model': ResNet50, 'feature_1': 'conv4_block6_2_relu', 'feature_2': 'conv2_block3_2_relu'},
-    'resnet101': {'model': ResNet101,'feature_1': 'conv4_block17_relu', 'feature_2': 'conv2_block2_out'},
-    'resnet50v2': {'model': ResNet50V2, 'feature_1': 'conv4_block6_1_relu', 'feature_2': 'conv2_block3_1_relu'},
+    'resnet101': {'model': ResNet101,'feature_1': 'conv4_block19_2_relu', 'feature_2': 'conv2_block3_2_relu'},
+    'resnet50v2': {'model': ResNet50V2, 'feature_1': 'conv4_block4_1_relu', 'feature_2': 'conv2_block3_1_relu'},
     'resnet101v2': {'model': ResNet101V2, 'feature_1': 'conv4_block23_1_relu', 'feature_2': 'conv2_block3_1_relu'},
-    'densenet121': {'model': DenseNet121, 'feature_1': 'conv5_block16_1_relu', 'feature_2': 'pool3_conv'},
-    'densenet169': {'model': DenseNet169, 'feature_1': 'conv5_block31_1_relu','feature_2': 'conv3_block5_1_relu'},
+    'densenet121': {'model': DenseNet121, 'feature_1': 'relu', 'feature_2': 'conv2_block6_0_relu'},
+    'densenet169': {'model': DenseNet169, 'feature_1': 'relu','feature_2': 'conv3_block5_1_relu'},
     'efficientnetb0': {'model': EfficientNetB0, 'feature_1': 'block7a_expand_activation', 'feature_2': 'block3a_expand_activation'},
     'efficientnetb1': {'model': EfficientNetB1,'feature_1': 'block7a_expand_activation', 'feature_2': 'block3a_expand_activation'},
     'efficientnetb2': {'model': EfficientNetB2, 'feature_1': 'block7a_expand_activation','feature_2': 'block3a_expand_activation'},
