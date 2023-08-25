@@ -40,7 +40,7 @@ backbones_list = {
     'inceptionv3': {'model': InceptionV3,'feature_1': 'mixed7', 'feature_2': 'mixed3'},
     'nasnetlarge': {'model': NASNetLarge,'feature_1': 'separable_conv_1_normal_left1_14', 'feature_2': 'separable_conv_1_reduction_right2_stem_2'},
     'convnexttiny': {'model': ConvNeXtTiny, 'feature_1': 'convnext_tiny_stage_3_block_0_depthwise_conv', 'feature_2': 'convnext_tiny_stage_1_block_0_depthwise_conv'},
-    'convnextbase': {'model': ConvNeXtBase, 'feature_1': 'convnext_base_stage_2_block_15_identity', 'feature_2': 'convnext_base_stage_1_block_1_depthwise_conv'},
+    'convnextbase': {'model': ConvNeXtBase, 'feature_1': 'convnext_tiny_stage_3_block_0_depthwise_conv', 'feature_2': 'convnext_base_stage_1_block_1_depthwise_conv'},
     'convnextsmall': {'model': ConvNeXtSmall,'feature_1': 'convnext_small_stage_2_block_19_depthwise_conv', 'feature_2': 'convnext_small_stage_1_block_2_depthwise_conv'},
     'convnextlarge': {'model': ConvNeXtLarge,'feature_1': 'convnext_large_stage_2_block_17_depthwise_conv', 'feature_2': 'convnext_large_stage_1_block_2_depthwise_conv'}
 }
