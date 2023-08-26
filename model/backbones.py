@@ -37,7 +37,7 @@ backbones_list = {
     'mobilenetv2': { 'model': MobileNetV2, 'feature_1': 'block_15_expand_relu','feature_2': 'block_2_expand_relu'},
     'vgg16': { 'model': VGG16, 'feature_1': 'block5_conv3', 'feature_2': 'block3_conv3'},
     'vgg19': { 'model': VGG19, 'feature_1': 'block5_conv4', 'feature_2': 'block3_conv4'},
-    'inceptionv3': {'model': InceptionV3,'feature_1': 'mixed7', 'feature_2': 'mixed3'},
+    'inceptionv3': {'model': InceptionV3,'feature_1': 'activation_182', 'feature_2': 'activation_100'},
     'nasnetlarge': {'model': NASNetLarge,'feature_1': 'separable_conv_1_normal_left1_14', 'feature_2': 'separable_conv_1_reduction_right2_stem_2'},
     'convnexttiny': {'model': ConvNeXtTiny, 'feature_1': 'convnext_tiny_stage_3_block_0_depthwise_conv', 'feature_2': 'convnext_tiny_stage_1_block_0_depthwise_conv'},
     'convnextbase': {'model': ConvNeXtBase, 'feature_1': 'convnext_tiny_stage_3_block_0_depthwise_conv', 'feature_2': 'convnext_base_stage_1_block_1_depthwise_conv'},
