@@ -9,7 +9,7 @@ from tensorflow.keras.applications import (
     ResNet50, ResNet101, DenseNet121, DenseNet169, ResNet50V2, ResNet101V2,
     EfficientNetB0, EfficientNetB1, EfficientNetB2, EfficientNetB3,
     EfficientNetB4, EfficientNetB5, EfficientNetB6, EfficientNetB7,
-    EfficientNetV2B0,EfficientNetV2B1, EfficientNetV2B2, EfficientNetV2B3,
+    EfficientNetV2B0,EfficientNetV2B1, EfficientNetV2B2, EfficientNetV2B3, MobileNet,
     MobileNetV2, VGG16, VGG19, InceptionV3, ConvNeXtSmall, ConvNeXtTiny, ConvNeXtBase,
     ConvNeXtLarge, NASNetLarge
 )
