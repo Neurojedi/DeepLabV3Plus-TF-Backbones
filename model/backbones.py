@@ -14,6 +14,7 @@ from tensorflow.keras.applications import (
     ConvNeXtLarge, NASNetLarge
 )
 
+# Experimental Backbones
 backbones_list = {
     'resnet50': {'model': ResNet50, 'feature_1': 'conv4_block6_2_relu', 'feature_2': 'conv2_block3_2_relu'},
     'resnet101': {'model': ResNet101,'feature_1': 'conv4_block19_2_relu', 'feature_2': 'conv2_block3_2_relu'},
