@@ -10,3 +10,5 @@ Currently, the model can be used with the following backbones:
 8. MobileNetV2
 9. VGG16
 10. VGG19
+
+"In my experiments, I found that using ConvNeXtSmall, ConvNeXtTiny, ConvNeXtBase, and ConvNeXtLarge as backbones was ineffective
