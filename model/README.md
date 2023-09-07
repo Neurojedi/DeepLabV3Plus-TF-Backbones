@@ -11,4 +11,4 @@ Currently, the model can be used with the following backbones:
 9. VGG16
 10. VGG19
 
-In my experiments, I found that using `ConvNeXtSmall`, `ConvNeXtTiny`, `ConvNeXtBase`, and `ConvNeXtLarge` as backbones were ineffective.
+In my experiments, I found that using `ConvNeXtSmall`, `ConvNeXtTiny`, `ConvNeXtBase`, `ConvNeXtLarge`, and  `EfficientNetB0-B7` as backbones were ineffective.
