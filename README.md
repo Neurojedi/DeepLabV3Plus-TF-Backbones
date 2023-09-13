@@ -1,6 +1,6 @@
 # DeepLabV3Plus-TF-Backbones (Under Construction 🛠️)
 
-This repository extends the Keras example code for [Multiclass semantic segmentation using DeepLabV3+](https://keras.io/examples/vision/deeplabv3_plus/). While the original example utilized a ResNet50 backbone, my work focuses on adapting the network to support various backbones available in `tensorflow.keras.applications`.
+This repository extends the Keras example code for [Multiclass semantic segmentation using DeepLabV3+](https://keras.io/examples/vision/deeplabv3_plus/). While the original example utilized a ResNet50 backbone, my work focuses on adapting the network to support various backbones available in `tensorflow.keras.applications`. 
 
 
 Currently, the model can be used with the following backbones:
@@ -15,7 +15,7 @@ Currently, the model can be used with the following backbones:
 8. `MobileNetV2`
 9. `VGG16`
 10. `VGG19`
-
+    
 In my experiments, I found the following backbones were ineffective:
 
 1. `ConvNeXtSmall`
@@ -30,3 +30,7 @@ In my experiments, I found the following backbones were ineffective:
 10. `EfficientNetB5`
 11. `EfficientNetB6`
 12. `EfficientNetB7`
+13. `EfficientNetV2B0`
+14. `EfficientNetV2B1`
+15. `EfficientNetV2B2`
+16. `EfficientNetV2B3`
