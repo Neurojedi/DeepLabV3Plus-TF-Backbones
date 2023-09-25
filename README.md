@@ -34,3 +34,4 @@ In my experiments, I found the following backbones were ineffective:
 14. `EfficientNetV2B1`
 15. `EfficientNetV2B2`
 16. `EfficientNetV2B3`
+17. `NASNetLarge`
